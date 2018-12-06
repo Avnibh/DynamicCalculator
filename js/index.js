@@ -18,17 +18,7 @@ function myFunction() {
     document.getElementById("output4").innerHTML = allTotal;
 }
 
-$('#e12').click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    $(this).toggleClass('expanded');
-    $('#'+$(e.target).attr('for')).prop('checked',true);
-});
-$(document).click(function() {
-    $('.dropdown-el').removeClass('expanded');
-});
-
-$('#e11').click(function(e) {
+$('.dropdown-el').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
     $(this).toggleClass('expanded');
