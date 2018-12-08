@@ -13,7 +13,7 @@ function myFunction() {
   
 
     document.getElementById("output1").innerHTML = cgst;
-    document.getElementById("output2").innerHTML = sgst1;
+    document.getElementById("output2").innerHTML = sgst;
     document.getElementById("output3").innerHTML = igst;
     document.getElementById("output4").innerHTML = allTotal;
 
