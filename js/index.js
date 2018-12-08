@@ -16,7 +16,14 @@ function myFunction() {
     document.getElementById("output2").innerHTML = sgst1;
     document.getElementById("output3").innerHTML = igst;
     document.getElementById("output4").innerHTML = allTotal;
+
+    var cgst12=document.getElementById("gst").value;
+    cgst12 = parseInt(cgst12);
+    document.getElementById("cgst").value = cgst12/2;
+    document.getElementById("sgst").value = cgst12/2;
+
 }
+
 
 $('.dropdown-el').click(function(e) {
     e.preventDefault();

@@ -45,9 +45,18 @@
         <label for="amount" class="fa fa-inr"></label>
     </p>
     <p>
-        <input type="text" id="gst" placeholder="GST">
+        <input type="text" id="gst" onchange="myFunction()" placeholder="IGST">
+        <label for="amount"  class="fa interest"></label>
+    </p>
+    <p>
+        <input type="text" id="cgst"  placeholder="CGST">
+        <label for="amount"   class="fa interest"></label>
+    </p>
+    <p>
+        <input type="text" id="sgst"  placeholder="SGST">
         <label for="amount" class="fa interest"></label>
     </p>
+
     <p>
         <button class="btn" onclick="myFunction()">Calculate</button>
 
