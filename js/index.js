@@ -18,19 +18,24 @@ function myFunction() {
     document.getElementById("output4").innerHTML = allTotal;
 
     var cgst12=document.getElementById("gst").value;
+    if (cgst12 === null || cgst12 === 0 || cgst12 == "") {
+        document.getElementById("cgst").value = 0;
+        document.getElementById("sgst").value = 0;
+
+    }
     cgst12 = parseInt(cgst12);
     document.getElementById("cgst").value = cgst12/2;
     document.getElementById("sgst").value = cgst12/2;
 
 }
 
-
-$('.dropdown-el').click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    $(this).toggleClass('expanded');
-    $('#'+$(e.target).attr('for')).prop('checked',true);
-});
-$(document).click(function() {
-    $('.dropdown-el').removeClass('expanded');
-});
+//
+// $('.dropdown-el').click(function(e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//     $(this).toggleClass('expanded');
+//     $('#'+$(e.target).attr('for')).prop('checked',true);
+// });
+// $(document).click(function() {
+//     $('.dropdown-el').removeClass('expanded');
+// });

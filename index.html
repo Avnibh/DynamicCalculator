@@ -21,25 +21,34 @@
     </div>
 
     <h1>Auto GST Calculator</h1>
-    <p>
-        Select State: <span class="dropdown-el" id="e12">
-    <input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label
-                for="sort-relevance">Inter-State</label>
-    <input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Intra-State</label>
-  </span>
-    </p>
-    <br>
-    <p>
-        Select Type: <span class="dropdown-el" id="e11">
-    <input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label
-                for="sort-relevance">Exclusive</label>
-    <input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Inclusive</label>
-  </span>
-    </p>
+    <!--<p>-->
+    <!--Select State: <span class="dropdown-el" id="e12">-->
+    <!--<input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label-->
+    <!--for="sort-relevance">Inter-State</label>-->
+    <!--<input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Intra-State</label>-->
+    <!--</span>-->
+    <!--</p>-->
+    <!--<br>-->
+    <!--<p>-->
+    <!--Select Type: <span class="dropdown-el" id="e11">-->
+    <!--<input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label-->
+    <!--for="sort-relevance">Exclusive</label>-->
+    <!--<input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Inclusive</label>-->
+    <!--</span>-->
+    <!--</p>-->
 
-    <br>
-    <br>
-
+    <p>
+    <div class="container">
+        <h2>Select State</h2>
+        <form>
+            <label class="radio-inline">
+                <input type="radio" name="optradio" checked>Inter-State
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Intra-State
+            </label>
+        </form>
+    </div>
     <p>
         <input type="text" id="price" name="amount" placeholder="Net Price">
         <label for="amount" class="fa fa-inr"></label>
