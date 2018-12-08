@@ -14,7 +14,7 @@ function myFunction() {
 
     document.getElementById("output").innerHTML = cgst;
     document.getElementById("output").innerHTML = sgst;
-    document.getElementById("output3").innerHTML = igst;
+    document.getElementById("output").innerHTML = igst;
     document.getElementById("output4").innerHTML = allTotal;
 
     var cgst12=document.getElementById("gst").value;
