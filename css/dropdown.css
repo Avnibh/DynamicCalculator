@@ -78,3 +78,9 @@
     /*top: .55em;*/
 /*}*/
 
+.box1 {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #DDD;
+}
