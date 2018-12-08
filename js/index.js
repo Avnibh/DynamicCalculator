@@ -12,7 +12,7 @@ function myFunction() {
         allTotal = price1 + igst;
   
 
-    document.getElementById("output1").innerHTML = cgst1;
+    document.getElementById("output1").innerHTML = cgst;
     document.getElementById("output2").innerHTML = sgst1;
     document.getElementById("output3").innerHTML = igst;
     document.getElementById("output4").innerHTML = allTotal;
